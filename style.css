@@ -139,6 +139,12 @@ main{
    .teams-image-container{
     grid-template-columns: 1fr;
    }
+   .facts-card{
+    flex-direction: column;
+   }
+    }
+    .sponsor-container{
+        text-align: center;
     }
 
     /* medium devices  */
@@ -149,7 +155,10 @@ main{
        nav, .teams-container {
         flex-direction: column;
     }
-    .teams-content{
+    .teams-content, .facts-card{
         padding-left: 20px;
         padding-right: 20px;
-}    
+    }
+    ..facts-card{
+        gap:20px 20ps;
+    }    
