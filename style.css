@@ -175,6 +175,7 @@ main{
         padding-left: 20px;
         padding-right: 20px;
     }
-    ..facts-card{
+    .facts-card{
         gap:20px 20ps;
     }    
+}
